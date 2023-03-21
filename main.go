@@ -6,6 +6,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/websocket"
+	"github.com/umeshmg27/GO-Websocket/chat"
 )
 
 var addr = flag.String("addr", ":8080", "http service address")
