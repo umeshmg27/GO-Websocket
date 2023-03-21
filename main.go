@@ -6,12 +6,12 @@ import (
 	"net/http"
 
 	"github.com/gorilla/websocket"
-	"github.com/umeshmg27/chat"
 )
 
 var addr = flag.String("addr", ":8080", "http service address")
 
 func main() {
+
 	flag.Parse()
 
 	storage := chat.NewStorage()
